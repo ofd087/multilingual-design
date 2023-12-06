@@ -1,0 +1,20 @@
+.lang {
+  right: auto;
+  left: 2px;
+}
+
+.toggler {
+  right: auto;
+  left: 12px;
+}
+
+.services-container .service-box:not(:last-child) {
+  padding-left: 20px;
+}
+
+.players-container .player-box {
+  margin-left: 0;
+}
+.players-container .player-box:not(:first-child) {
+  margin-right: 1%;
+}/*# sourceMappingURL=homepage-rtl.css.map */

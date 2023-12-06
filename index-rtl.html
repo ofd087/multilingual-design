@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS Practical RTL</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/homepage-rtl.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="header-container">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <h1>Composition</h1>
+                    <p>Free PSD Website Template</p>
+                    <button class="toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <ul class="navbar">
+                    <li><a href="#">الصفحة الرئيسية</a></li>
+                    <li><a href="#">العرض التوضيحى</a></li>
+                    <li><a href="#">العرض الكامل</a></li>
+                    <li><a href="#">القائمة</a></li>
+                    <li><a href="#">الروابط</a></li>
+                </ul>
+            </div>
+            <button class="lang" onclick="changeLanguage()">EN</button>
+        </div>
+    </div>
+    <!-- /HEADER/ -->
+    <!-- SLIDER -->
+    <div class="slider">
+        <div class="container">
+            <q>كل الناس سواسية أمام القانون ولهم الحق في التمتع بحماية متكافئة عنه دون أية تفرقة، كما أن لهم جميعاً الحق
+                في حماية متساوية ضد أي تمييز يُخل بهذا الإعلان وضد أي تحريض على تمييز كهذا.
+            </q>
+            <img src="imgs/slider.jpg" alt="">
+            <ul class="bullets">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /SLIDER/ -->
+    <!-- SERVICES -->
+    <div class="services">
+        <div class="container">
+            <div class="head-with-border">
+                <h2>خدماتنا</h2>
+            </div>
+            <div class="services-container">
+                <div class="service-box">
+                    <h3 class="service-title"><i class="fa-solid fa-earth-americas"></i> عنوان تجريبى</h3>
+                    <p>كل الناس سواسية أمام القانون ولهم الحق في التمتع بحماية متكافئة عنه دون أية تفرقة، كما أن لهم
+                        جميعاً الحق في حماية متساوية ضد أي تمييز يُخل بهذا الإعلان وضد أي تحريض على تمييز كهذا..
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+                <div class="service-box">
+                    <h3 class="service-title"><i class="fa-solid fa-users"></i> عنوان تجريبى</h3>
+                    <p>كل الناس سواسية أمام القانون ولهم الحق في التمتع بحماية متكافئة عنه دون أية تفرقة، كما أن لهم
+                        جميعاً الحق في حماية متساوية ضد أي تمييز يُخل بهذا الإعلان وضد أي تحريض على تمييز كهذا.
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+                <div class="service-box">
+                    <h3 class="service-title"><i class="fa-solid fa-gears"></i> عنوان تجريبى</h3>
+                    <p>كل الناس سواسية أمام القانون ولهم الحق في التمتع بحماية متكافئة عنه دون أية تفرقة، كما أن لهم
+                        جميعاً الحق في حماية متساوية ضد أي تمييز يُخل بهذا الإعلان وضد أي تحريض على تمييز كهذا.
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /SERVICES/ -->
+    <!-- PLAYERS -->
+    <div class="players">
+        <div class="container">
+            <div class="head-with-border">
+                <h2>فريقنا</h2>
+            </div>
+            <div class="players-container">
+                <div class="player-box">
+                    <img src="imgs/player-01.png" alt="">
+                    <h3 class="player-title"><span>الإسم:</span> كريس جونسون</h3>
+                    <p>يعلم مهامه الوظيفية جيدًا وما المطلوب منه إنجازه. يُحسن من الجودة والإنتاجية عن طريق تقديم أفكارٍ
+                        جديدةٍ ومبتكرة، سواء كان ذلك في تعامله مع الآخرين
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+                <div class="player-box">
+                    <img src="imgs/player-02.png" alt="">
+                    <h3 class="player-title"><span>الإسم:</span> ناتالى ألان</h3>
+                    <p>يعلم مهامه الوظيفية جيدًا وما المطلوب منه إنجازه. يُحسن من الجودة والإنتاجية عن طريق تقديم أفكارٍ
+                        جديدةٍ ومبتكرة، سواء كان ذلك في تعامله مع الآخرين
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+                <div class="player-box">
+                    <img src="imgs/player-03.png" alt="">
+                    <h3 class="player-title"><span>الإسم:</span> ليندا مورجان</h3>
+                    <p>يعلم مهامه الوظيفية جيدًا وما المطلوب منه إنجازه. يُحسن من الجودة والإنتاجية عن طريق تقديم أفكارٍ
+                        جديدةٍ ومبتكرة، سواء كان ذلك في تعامله مع الآخرين
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+                <div class="player-box">
+                    <img src="imgs/player-04.png" alt="">
+                    <h3 class="player-title"><span>الإسم:</span> سام سميث</h3>
+                    <p>يعلم مهامه الوظيفية جيدًا وما المطلوب منه إنجازه. يُحسن من الجودة والإنتاجية عن طريق تقديم أفكارٍ
+                        جديدةٍ ومبتكرة، سواء كان ذلك في تعامله مع الآخرين
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+                <div class="player-box">
+                    <img src="imgs/player-05.png" alt="">
+                    <h3 class="player-title"><span>الإسم:</span> كارلى فريد</h3>
+                    <p>يعلم مهامه الوظيفية جيدًا وما المطلوب منه إنجازه. يُحسن من الجودة والإنتاجية عن طريق تقديم أفكارٍ
+                        جديدةٍ ومبتكرة، سواء كان ذلك في تعامله مع الآخرين
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+                <div class="player-box">
+                    <img src="imgs/player-06.png" alt="">
+                    <h3 class="player-title"><span>الإسم:</span> رومان أوين</h3>
+                    <p>يعلم مهامه الوظيفية جيدًا وما المطلوب منه إنجازه. يُحسن من الجودة والإنتاجية عن طريق تقديم أفكارٍ
+                        جديدةٍ ومبتكرة، سواء كان ذلك في تعامله مع الآخرين
+                    </p>
+                    <a href="#">إقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /PLAYERS/ -->
+    <!-- LOREM IPSUM -->
+    <div class="lorem-ipsum">
+        <div class="container">
+            <div class="head-with-border">
+                <h2>معرض الصور</h2>
+            </div>
+            <div class="imgs-container">
+                <div class="lorem-box">
+                    <img src="imgs/lorem-01.jpg" alt="">
+                </div>
+                <div class="lorem-box">
+                    <img src="imgs/lorem-02.jpg" alt="">
+                </div>
+                <div class="lorem-box">
+                    <img src="imgs/lorem-03.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /LOREM IPSUM/ -->
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div class="main-box">
+                <div class="gallery">
+                    <h3 class="section-title">من مدونتنا</h3>
+                    <div class="imgs-box">
+                        <div class="img-container">
+                            <img src="imgs/footer-01.jpg" alt="">
+                        </div>
+                        <div class="description-container">
+                            <h4>عنوان تجريبى</h4>
+                            <p>كل الناس سواسية أمام القانون ولهم الحق في التمتع بحماية متكافئة عنه دون أية تفرقة، كما أن
+                                لهم
+                                جميعاً الحق في حماية متساوية ضد أي تمييز يُخل بهذا الإعلان وضد أي تحريض على تمييز كهذا.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="imgs-box">
+                        <div class="img-container">
+                            <img src="imgs/footer-02.jpg" alt="">
+                        </div>
+                        <div class="description-container">
+                            <h4>عنوان تجريبى</h4>
+                            <p>كل الناس سواسية أمام القانون ولهم الحق في التمتع بحماية متكافئة عنه دون أية تفرقة، كما أن
+                                لهم
+                                جميعاً الحق في حماية متساوية ضد أي تمييز يُخل بهذا الإعلان وضد أي تحريض على تمييز كهذا.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3 class="section-title">بيانات الشركة</h3>
+                    <ul>
+                        <li>إسم الشركة</li>
+                        <li>إسم الشارع ورقم المقر</li>
+                        <li>المدينة</li>
+                        <li>الرمز البريدى</li>
+                        <li>تليفون: 00 01231231233</li>
+                        <li>فاكس: 00 123456789</li>
+                        <li>البريد الإلكترونى: email@company.com</li>
+                    </ul>
+                    <h4 class="working">مواعيد العمل</h4>
+                    <p>الإثنين - الجمعة 08:00 - 17:00</p>
+                    <p>السبت 08:00 - 13:00</p>
+                </div>
+                <div class="contact">
+                    <h3 class="section-title">إتصل بنا</h3>
+                    <form>
+                        <input type="text" name="" placeholder="الإسم">
+                        <input type="email" name="" placeholder="البريد الإلكترونى">
+                        <textarea placeholder="الرسالة"></textarea>
+                        <input type="submit" value="إرسال" class="main-btn">
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copy-text">جميع الحقوق محفوظة &copy; <span>2023</span></div>
+                <div class="author">تم التطوير بواسطة <span>أحمد عبد الرؤوف</span></div>
+            </div>
+        </div>
+    </div>
+    <!-- /FOOTER/ -->
+
+    <script src="js/Jquery.js"></script>
+    <script>
+        $(function () {
+            $(".toggler").on("click", function () {
+                $(".navbar").slideToggle();
+            });
+        });
+
+        // change language button
+        function changeLanguage() {
+            window.location = "index.html"
+        }
+    </script>
+</body>
+
+</html>
